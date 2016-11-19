@@ -19,3 +19,7 @@ try {
   console.log('key not valid')
 }
 ```
+
+## License
+
+MIT
