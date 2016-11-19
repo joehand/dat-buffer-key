@@ -1,0 +1,27 @@
+{
+  "name": "dat-buffer-key",
+  "version": "1.0.0",
+  "description": "get a dat key as a buffer, maybe",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/dat-buffer-key.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-buffer-key/issues"
+  },
+  "homepage": "https://github.com/joehand/dat-buffer-key#readme",
+  "dependencies": {
+    "dat-encoding": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}
