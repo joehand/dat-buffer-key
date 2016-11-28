@@ -1,6 +1,6 @@
 {
   "name": "dat-buffer-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get a dat key as a buffer, maybe",
   "main": "index.js",
   "scripts": {
