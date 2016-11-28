@@ -6,6 +6,8 @@ Might return a Dat buffer key
 * **invalid string**: Throws error
 * **null**: Returns null
 
+Check out [dat-key-as](https://github.com/joehand/dat-key-as) to get keys as strings or buffers!
+
 ## Usage
 
 ```js
