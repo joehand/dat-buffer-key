@@ -4,6 +4,6 @@ module.exports = function (key) {
   return key
     ? typeof key === 'string'
       ? encoding.decode(key)
-      : key
+      : encoding.decode(encoding.encode(key))
     : null
 }

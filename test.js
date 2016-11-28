@@ -4,6 +4,7 @@ var encoding = require('dat-encoding')
 var bufKeyMaybe = require('.')
 
 var keys = [
+  {type: 'valid', key: new Buffer('a6848dd4f5515f70b4c20c484d7b348ce71f711d8f94b07d919f0acc068d165d', 'hex')},
   {type: 'valid', key: 'a6848dd4f5515f70b4c20c484d7b348ce71f711d8f94b07d919f0acc068d165d'},
   {type: 'valid', key: 'dat://a6848dd4f5515f70b4c20c484d7b348ce71f711d8f94b07d919f0acc068d165d'},
   {type: 'valid', key: 'dat.land/a6848dd4f5515f70b4c20c484d7b348ce71f711d8f94b07d919f0acc068d165d'},
